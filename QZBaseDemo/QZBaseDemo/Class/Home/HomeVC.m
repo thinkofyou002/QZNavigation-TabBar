@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = QZRandomColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     
     
 

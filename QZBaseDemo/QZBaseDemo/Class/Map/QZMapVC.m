@@ -25,6 +25,9 @@
     [self.view addSubview:mapBtn];
     // Do any additional setup after loading the view.
 }
+
+
+
 - (void)mapAction:(UIButton *)sender {
     QZMapMoveAnimationVC *mapVC = [[QZMapMoveAnimationVC alloc] init];
     [self.navigationController pushViewController:mapVC animated:YES];

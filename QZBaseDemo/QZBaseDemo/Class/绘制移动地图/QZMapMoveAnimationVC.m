@@ -13,9 +13,24 @@
 @end
 
 @implementation QZMapMoveAnimationVC
+//设置透明的导航栏
+- (void)viewWillAppear:(BOOL)animated {
+    //设置导航栏透明
+    [self.navigationController.navigationBar setTranslucent:true];
+    //把背景图片设置为空
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+    //处理导航啦线条的问题
+    [self.navigationController.navigationBar setShadowImage:[UIImage new]];
+}
 
+- (void)viewWillDisappear:(BOOL)animated {
+    //防止其他页面被渲染成透明的导航栏
+    [self.navigationController.navigationBar setBackgroundImage:nil forBarMetrics:UIBarMetricsDefault];
+    [self.navigationController.navigationBar setShadowImage:nil];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor purpleColor];
     // Do any additional setup after loading the view.
 }
 

@@ -17,9 +17,10 @@
 //价格的颜色
 #define priceOrangeColor   QZColor16Hex(0Xfea613)
 
+
 //线的颜色
 #define kBackgroundColorQZ  RGB(232,233,235,1) //背景色
-
+#define kLightKinCOlor  QZColor16Hex(0X00CED1) //背景色
 //**********************    常用配色方法     **********************
 
 // 16进制颜色(透明度1)

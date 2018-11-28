@@ -25,7 +25,7 @@
 //    NSDictionary *textAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName: FONT_SYSTEM_BOLD(18)};
 //    [self.navigationBar setTitleTextAttributes:textAttributes];
     //改变navBar的背景颜色
-    [self.navigationBar setBarTintColor:[UIColor orangeColor]];
+    [self.navigationBar setBarTintColor:kLightKinCOlor];
     // Do any additional setup after loading the view.
 }
 
