@@ -9,6 +9,7 @@
 #import "QZTabbarController.h"
 #import "QZCustomerNavigation.h"
 #import "HomeVC.h"
+#import "QZMapVC.h"
 
 #import "QZTabBar.h"
 @interface QZTabbarController ()<UITabBarControllerDelegate>
@@ -53,7 +54,7 @@
     [self addChildVC:[[HomeVC alloc] init] andTitle:@"开心" andImageName:@"眨眼" selectImageName:@"眨眼 (1)"];
     [self addChildVC:[[HomeVC alloc] init] andTitle:@"生气" andImageName:@"生气 (1)" selectImageName:@"生气"];
     [self addChildVC:[[HomeVC alloc] init] andTitle:@"中间" andImageName:@"" selectImageName:@""];//只是占位的效果
-    [self addChildVC:[[HomeVC alloc] init] andTitle:@"尴尬" andImageName:@"尴尬" selectImageName:@"尴尬 (1)"];
+    [self addChildVC:[[QZMapVC alloc] init] andTitle:@"地图" andImageName:@"尴尬" selectImageName:@"尴尬 (1)"];
     [self addChildVC:[[HomeVC alloc] init] andTitle:@"卖萌" andImageName:@"卖萌 (1)" selectImageName:@"卖萌"];
 }
 

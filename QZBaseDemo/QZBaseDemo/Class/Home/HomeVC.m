@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = QZRandomColor;
+    
+    
+
+    
+    
     // Do any additional setup after loading the view.
 }
 

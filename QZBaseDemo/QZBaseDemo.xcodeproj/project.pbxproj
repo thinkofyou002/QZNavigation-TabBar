@@ -19,6 +19,7 @@
 		0C5B938521AD0D4500DB55B2 /* QZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B938421AD0D4500DB55B2 /* QZBaseViewController.m */; };
 		0C5B939921AD281200DB55B2 /* QZMapMoveAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B939821AD281200DB55B2 /* QZMapMoveAnimationVC.m */; };
 		0C5B93A021AD28E300DB55B2 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5B939E21AD28E300DB55B2 /* HomeVC.m */; };
+		0CD26E5021AE283600E9E93F /* QZMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD26E4F21AE283600E9E93F /* QZMapVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		0C5B939821AD281200DB55B2 /* QZMapMoveAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZMapMoveAnimationVC.m; sourceTree = "<group>"; };
 		0C5B939E21AD28E300DB55B2 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		0C5B939F21AD28E300DB55B2 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		0CD26E4E21AE283600E9E93F /* QZMapVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QZMapVC.h; sourceTree = "<group>"; };
+		0CD26E4F21AE283600E9E93F /* QZMapVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZMapVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +285,8 @@
 		0C5B939B21AD28C100DB55B2 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				0CD26E4E21AE283600E9E93F /* QZMapVC.h */,
+				0CD26E4F21AE283600E9E93F /* QZMapVC.m */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -430,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C5B934D21ACE03E00DB55B2 /* main.m in Sources */,
+				0CD26E5021AE283600E9E93F /* QZMapVC.m in Sources */,
 				0C5B938521AD0D4500DB55B2 /* QZBaseViewController.m in Sources */,
 				0C5B939921AD281200DB55B2 /* QZMapMoveAnimationVC.m in Sources */,
 				0C5B93A021AD28E300DB55B2 /* HomeVC.m in Sources */,

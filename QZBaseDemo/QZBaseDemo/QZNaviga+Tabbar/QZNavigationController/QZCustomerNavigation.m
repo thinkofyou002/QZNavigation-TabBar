@@ -25,7 +25,7 @@
 //    NSDictionary *textAttributes = @{NSForegroundColorAttributeName : [UIColor whiteColor], NSFontAttributeName: FONT_SYSTEM_BOLD(18)};
 //    [self.navigationBar setTitleTextAttributes:textAttributes];
     //改变navBar的背景颜色
-    [self.navigationBar setBarTintColor:[UIColor whiteColor]];
+    [self.navigationBar setBarTintColor:[UIColor orangeColor]];
     // Do any additional setup after loading the view.
 }
 
@@ -35,10 +35,10 @@
     if ([self.viewControllers count] > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
         //可以在这里自定义设置返回按钮
-        /*
-         UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_back"] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
-         viewController.navigationItem.leftBarButtonItem = backItem;
-         */
+        
+//         UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"ic_returni"] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
+//         viewController.navigationItem.leftBarButtonItem = backItem;
+        
     }
     //u一定要z写在最后,不然无效
     [super pushViewController:viewController animated:animated];
@@ -50,6 +50,9 @@
     
     
     
+}
+- (void)backAction {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 /*
 #pragma mark - Navigation
